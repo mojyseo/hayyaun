@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: "hayyaun",
-    siteUrl: "hayyaun.com"
+    siteUrl: "https://hayyaun.com"
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    //"gatsby-plugin-sitemap",
+    "gatsby-plugin-sitemap", 
     {
       resolve: "gatsby-plugin-manifest",
       options: {
