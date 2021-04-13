@@ -1,11 +1,12 @@
-import * as React from "react"
+import * as React from 'react';
+import MainSection from '../sections/MainSection';
 
 const IndexPage = () => {
   return (
     <main>
-      
+      <MainSection />
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
