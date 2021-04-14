@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import Button from '../components/Button';
-import Navbar from '../components/Navbar';
 
-const MainSection = () => {
+const MainSection = forwardRef((_, ref) => {
   return (
-    <Container>
-      <Navbar />
+    <Container ref={ref}>
       <ContentBox>
         <HeaderBox>
           <HeaderText>Hi, I'm</HeaderText>
@@ -29,7 +27,7 @@ const MainSection = () => {
       </ContentBox>
     </Container>
   );
-};
+});
 
 export default MainSection;
 
@@ -45,18 +43,18 @@ const DetailsBox = styled.div`
 `;
 
 const HighlightText = styled.span`
-  font-size: 80px;
+  font-size: 6rem;
+  line-height: 6.25rem;
   font-weight: 700;
-  line-height: 112px;
   background: linear-gradient(285deg, #d525e3 15%, #4474e4 75%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
 
 const HeaderText = styled.span`
-  font-size: 48px;
+  font-size: 3rem;
+  line-height: 3.5rem;
   font-weight: 700;
-  line-height: 85px;
 `;
 
 const HeaderBox = styled.div`

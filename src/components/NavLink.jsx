@@ -1,8 +1,13 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 
-const NavLink = ({ active, title, children }) => {
-  return <Container active={active}>{children || title}</Container>;
+const NavLink = ({ active, title, children, to }) => {
+  return (
+    <Link to={to}>
+      <Container active={active}>{children || title}</Container>
+    </Link>
+  );
 };
 
 export default NavLink;

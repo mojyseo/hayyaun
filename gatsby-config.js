@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'hayyaun',
+    title: 'Hayyaun',
     siteUrl: 'https://hayyaun.com',
+    description: 'Hayyaun is a front-end developer who builds cool sites.',
+    author: '@hayyaun',
   },
   plugins: [
     'gatsby-plugin-sass',
