@@ -1,7 +1,7 @@
-[![Header](https://raw.githubusercontent.com/hayyaun/hayyaun/master/readme_header.png "Header")](https://hayyaun.com/)  
+[![Header](https://raw.githubusercontent.com/hayyaun/hayyaun/master/assets/readme_header.png "Header")](https://hayyaun.com/)  
 
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# Hello, folks! <img src="https://raw.githubusercontent.com/hayyaun/hayyaun/master/assets/wave.gif" width="30px">
 My name is Hayyan Hami Razavi and I'm a front-end web developer. I'm from Iran, living in Kish Island and currently working at BamaChoub. You can find me on [Twitter][1], or on [LinkedIn][3].
 
 
@@ -21,12 +21,14 @@ My name is Hayyan Hami Razavi and I'm a front-end web developer. I'm from Iran, 
 ![](https://img.shields.io/badge/Library-Redux-informational?style=flat&logo=redux&logoColor=white&color=764ABC)
 ![](https://img.shields.io/badge/Prettifier-Prettier-informational?style=flat&logo=prettier&logoColor=white&color=F7B93E)
 ![](https://img.shields.io/badge/Linter-ESLint-informational?style=flat&logo=eslint&logoColor=white&color=4B32C3)
+![](https://img.shields.io/badge/Utils-Babel-informational?style=flat&logo=babel&logoColor=white&color=F9DC3E)
+![](https://img.shields.io/badge/Utils-Webpack-informational?style=flat&logo=webpack&logoColor=white&color=8DD6F9)
 ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=4EAA25)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2496ED)
 ![](https://img.shields.io/badge/Tools-NodeJS-informational?style=flat&logo=node.js&logoColor=white&color=339933)
+![](https://img.shields.io/badge/Tools-Miro-informational?style=flat&logo=miro&logoColor=white&color=050038)
 ![](https://img.shields.io/badge/Cloud-Netlify-informational?style=flat&logo=netlify&logoColor=white&color=00C7B7)
 ![](https://img.shields.io/badge/CI-Github_Actions-informational?style=flat&logo=github-actions&logoColor=white&color=2088FF)
-![](https://img.shields.io/badge/Contribution-Miro-informational?style=flat&logo=miro&logoColor=white&color=050038)
 
 
 # &#x1f4c8; Github Stats
