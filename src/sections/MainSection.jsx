@@ -1,8 +1,14 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import Button from '../components/Button';
+import { navigate } from 'gatsby';
+
+const resumeUrl = 'https://www.linkedin.com/in/hayyaun';
 
 const MainSection = forwardRef((_, ref) => {
+  const onContactClick = (e) => navigate('#contact');
+  const onResumeClick = (e) => window.open(resumeUrl, '_blank').focus();
+
   return (
     <Container ref={ref}>
       <ContentBox>
@@ -15,14 +21,18 @@ const MainSection = forwardRef((_, ref) => {
         </HeaderBox>
         <DetailsBox>
           <span>
-            I Am Very Interested In The Creative Field, Being A Designer Is One
+            I Am Very Interested In Building Websites, Being A Developer Is One
             Of My Life Goals, With A Talent In This Field I Want To Always Learn
             New Things And Strengthen Every Process.
           </span>
         </DetailsBox>
         <ButtonsBox>
-          <Button title="Contact Me" variant="filled" />
-          <Button title="My Resume" variant="outline" />
+          <Button
+            title="Contact Me"
+            variant="filled"
+            onClick={onContactClick}
+          />
+          <Button title="My Resume" variant="outline" onClick={onResumeClick} />
         </ButtonsBox>
       </ContentBox>
     </Container>

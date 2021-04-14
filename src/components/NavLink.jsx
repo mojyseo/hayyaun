@@ -22,5 +22,6 @@ const Container = styled.div`
   margin: 0 12px;
   box-sizing: border-box;
   cursor: pointer;
+  user-select: none;
   ${(props) => props.active && `border-bottom: 2px solid #fff;`}
 `;

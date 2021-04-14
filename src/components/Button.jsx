@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Button = ({ variant, active, title, children }) => {
-  return <Container variant={variant}>{children || title}</Container>;
+const Button = ({ variant, active, title, children, ...props }) => {
+  return (
+    <Container variant={variant} {...props}>
+      {children || title}
+    </Container>
+  );
 };
 
 export default Button;
@@ -23,4 +27,5 @@ const Container = styled.div`
   padding: 10px 38px;
   box-sizing: border-box;
   cursor: pointer;
+  user-select: none;
 `;
