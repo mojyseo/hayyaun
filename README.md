@@ -5,7 +5,7 @@
 My name is Hayyan Hami Razavi and I'm a front-end web developer. I'm from Iran, living in Kish Island and currently working at BamaChoub. You can find me on [Twitter][1], or on [LinkedIn][3].
 
 
-## 👨‍💻 Technologies & Tools
+## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Editor-VSCode-informational?style=flat&logo=visual-studio-code&logoColor=white&color=007ACC)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7DF1E)
 ![](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=3178C6)
