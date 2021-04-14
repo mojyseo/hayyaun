@@ -31,11 +31,18 @@ My name is Hayyan Hami Razavi and I'm a front-end web developer. I'm from Iran, 
 ![](https://img.shields.io/badge/CI-Github_Actions-informational?style=flat&logo=github-actions&logoColor=white&color=2088FF)
 
 
+# 👨‍💻 Buy Me a Coffee
+[![](https://img.shields.io/badge/Send-Dogecoin-informational?style=flat&logo=dogecoin&logoColor=white&color=C2A633)](https://dogechain.info/address/DS7p54s9UXvXtFkUhnC8vkvfT7dHTWEoK1)
+[![](https://img.shields.io/badge/Send-Nano-informational?style=flat&logo=nano&logoColor=white&color=4A90E2)](https://nanolooker.com/account/nano_3eft99saufusdqzbsz17kq6n7nbxuhdcqx8xks3b59x8jn8844bpm3suuk9r)
+[![](https://img.shields.io/badge/Send-Litecoin-informational?style=flat&logo=litecoin&logoColor=white&color=A6A9AA)](https://blockchair.com/litecoin/address/ltc1qzxml6dp8eq0mlasgyk0l7l3qhl2n8xtresc88s)
+
+
 # &#x1f4c8; Github Stats
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hayyaun&repo=hayyaun&theme=radical)](https://github.com/hayyaun)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bamachoub&repo=bamachoub&theme=radical)](https://github.com/hayyaun)  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hayyaun&langs_count=3&theme=radical)](https://github.com/hayyaun)
 [![Hayyaun's GitHub stats](https://github-readme-stats.vercel.app/api?username=hayyaun&count_private=true&show_icons=true&theme=radical)](https://github.com/hayyaun)
+
 
 
 <!-- links to your social media accounts -->
