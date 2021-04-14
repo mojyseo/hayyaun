@@ -1,7 +1,7 @@
-[![Header](https://raw.githubusercontent.com/hayyaun/hayyaun/master/assets/readme_header.png "Header")](https://hayyaun.com/)  
+[![Header](https://raw.githubusercontent.com/hayyaun/hayyaun/main/assets/readme_header.png "Header")](https://hayyaun.com/)  
 
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/hayyaun/hayyaun/master/assets/wave.gif" width="30px">
+# Hello, folks! <img src="https://raw.githubusercontent.com/hayyaun/hayyaun/main/assets/wave.gif" width="30px">
 My name is Hayyan Hami Razavi and I'm a front-end web developer. I'm from Iran, living in Kish Island and currently working at BamaChoub. You can find me on [Twitter][1], or on [LinkedIn][3].
 
 
