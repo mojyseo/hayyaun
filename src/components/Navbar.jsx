@@ -13,16 +13,18 @@ const links = [
 const Navbar = ({ location }) => {
   return (
     <Container>
-      <div>
-        <span>Hayyan Hami</span>
-      </div>
-      <LinksBox>
-        {links.map(({ name, to }, i) => (
-          <NavLink key={i} to={to} active={location.hash === to}>
-            {name}
-          </NavLink>
-        ))}
-      </LinksBox>
+      <ContentBox>
+        <div>
+          <span>Hayyan Hami</span>
+        </div>
+        <LinksBox>
+          {links.map(({ name, to }, i) => (
+            <NavLink key={i} to={to} active={location.hash === to}>
+              {name}
+            </NavLink>
+          ))}
+        </LinksBox>
+      </ContentBox>
     </Container>
   );
 };
@@ -31,24 +33,31 @@ export default Navbar;
 
 const LinksBox = styled.div`
   display: flex;
+  gap: 20px;
 
   @media screen and (max-width: 780px) {
     display: none;
   }
 `;
 
+const ContentBox = styled.div`
+  display: flex;
+  width: 1020px;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 const Container = styled.div`
   position: fixed;
-  top: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
   height: 64px;
   width: 100%;
   box-sizing: border-box;
   border-bottom: 1px solid #ffffff15;
   font-family: 'Poppins';
   font-weight: 700;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20%;
   backdrop-filter: blur(20px) brightness(150%);
 `;

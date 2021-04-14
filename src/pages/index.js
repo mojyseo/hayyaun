@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import AboutSection from '../sections/AboutSection';
 import ContactSection from '../sections/ContactSection';
@@ -35,6 +36,7 @@ const IndexPage = ({ location }) => {
       <SkillsSection location={location} ref={_skills} />
       <GallerySection location={location} ref={_gallery} />
       <ContactSection location={location} ref={_contact} />
+      <Footer />
     </main>
   );
 };

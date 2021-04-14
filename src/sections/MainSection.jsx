@@ -21,9 +21,9 @@ const MainSection = forwardRef((_, ref) => {
         </HeaderBox>
         <DetailsBox>
           <span>
-            I Am Very Interested In Building Websites, Being A Developer Is One
-            Of My Life Goals, With A Talent In This Field I Want To Always Learn
-            New Things And Strengthen Every Process.
+            I am Very Interested in Building Websites, Being a Developer is One
+            of My Life Goals, With a Talent in This Field I Want to Always Learn
+            New Things and Strengthen Every Process.
           </span>
         </DetailsBox>
         <ButtonsBox>
@@ -48,7 +48,6 @@ const ButtonsBox = styled.div`
 `;
 
 const DetailsBox = styled.div`
-  max-width: 50%;
   line-height: 28px;
 `;
 
@@ -87,4 +86,5 @@ const Container = styled.div`
   justify-content: space-between;
   height: 100vh;
   margin: 0 auto;
+  width: 600px;
 `;
