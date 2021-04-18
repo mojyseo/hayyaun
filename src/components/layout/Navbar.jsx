@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import NavLink from './NavLink';
+import NavLink from '../system/NavLink';
 
 const links = [
   { name: 'Home', to: '#home' },
@@ -42,22 +42,25 @@ const LinksBox = styled.div`
 
 const ContentBox = styled.div`
   display: flex;
-  width: 1020px;
+  flex-basis: 1020px;
   align-items: center;
   justify-content: space-between;
+  margin: 0 24px;
 `;
 
 const Container = styled.div`
   position: fixed;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
   top: 0;
-  height: 64px;
   width: 100%;
+  height: 64px;
   box-sizing: border-box;
   border-bottom: 1px solid #ffffff15;
   font-family: 'Poppins';
   font-weight: 700;
   backdrop-filter: blur(20px) brightness(150%);
+  box-shadow: 0 0 8px #0009;
 `;

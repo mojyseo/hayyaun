@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+import styled from 'styled-components';
+import Footer from '../components/layout/Footer';
+import Navbar from '../components/layout/Navbar';
 import AboutSection from '../sections/AboutSection';
 import ContactSection from '../sections/ContactSection';
 import GallerySection from '../sections/GallerySection';
@@ -29,7 +30,7 @@ const IndexPage = ({ location }) => {
   }, [location]);
 
   return (
-    <main>
+    <Container>
       <Navbar location={location} />
       <MainSection location={location} ref={_home} />
       <AboutSection location={location} ref={_about} />
@@ -37,8 +38,14 @@ const IndexPage = ({ location }) => {
       <GallerySection location={location} ref={_gallery} />
       <ContactSection location={location} ref={_contact} />
       <Footer />
-    </main>
+    </Container>
   );
 };
 
 export default IndexPage;
+
+const Container = styled.main`
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+`;

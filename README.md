@@ -26,7 +26,7 @@ My name is Hayyan Hami Razavi and I'm a front-end web developer. I'm from Iran, 
 ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=4EAA25)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2496ED)
 ![](https://img.shields.io/badge/Tools-NodeJS-informational?style=flat&logo=node.js&logoColor=white&color=339933)
-![](https://img.shields.io/badge/Tools-Miro-informational?style=flat&logo=miro&logoColor=white&color=050038)
+![](https://img.shields.io/badge/Collab-Miro-informational?style=flat&logo=miro&logoColor=white&color=050038)
 ![](https://img.shields.io/badge/Cloud-Netlify-informational?style=flat&logo=netlify&logoColor=white&color=00C7B7)
 ![](https://img.shields.io/badge/CI-Github_Actions-informational?style=flat&logo=github-actions&logoColor=white&color=2088FF)
 

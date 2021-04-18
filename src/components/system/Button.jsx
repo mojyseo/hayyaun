@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { colors } from '../../config/constants';
 
 const Button = ({ variant, active, title, children, ...props }) => {
   return (
@@ -20,9 +21,9 @@ const Container = styled.div`
   border-radius: 10px;
   ${(props) =>
     props.variant === 'outline'
-      ? `border: 3px solid #4f81f3;`
+      ? `border: 3px solid ${colors.primary};`
       : props.variant === 'filled'
-      ? `background-color: #4f81f3;`
+      ? `background-color: ${colors.primary};`
       : ''}
   padding: 10px 38px;
   box-sizing: border-box;

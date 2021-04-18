@@ -1,16 +1,23 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
+import Title from '../components/system/Title';
 
 const GallerySection = forwardRef((_, ref) => {
-  return <Container ref={ref}></Container>;
+  return (
+    <Container ref={ref}>
+      <Title>Showcases</Title>
+    </Container>
+  );
 });
 
 export default GallerySection;
 
-const Container = styled.div`
+const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
-  margin: 0 auto;
+  height: 60vh;
+  background-color: #121212;
+  border-top: 1px solid #ffffff12;
+  border-bottom: 1px solid #ffffff12;
 `;

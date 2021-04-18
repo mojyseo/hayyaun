@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
-import Button from '../components/Button';
+import Button from '../components/system/Button';
 import { navigate } from 'gatsby';
 
 const resumeUrl = 'https://www.linkedin.com/in/hayyaun';
@@ -71,20 +71,20 @@ const HeaderBox = styled.div`
 `;
 
 const ContentBox = styled.div`
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  max-width: 600px;
+  margin: 0 24px;
   gap: 32px;
 `;
 
-const Container = styled.div`
+const Container = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  margin: 0 auto;
-  width: 600px;
 `;
